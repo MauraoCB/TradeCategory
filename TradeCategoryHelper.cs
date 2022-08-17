@@ -9,7 +9,7 @@ namespace TradeCategory
 {
    public static class TradeCategoryHelper
     {
-        public static List<string> ListClassifiedCatgories(List<Trade> trades, DateTime referenceDate)
+        public static List<string> ListClassifiedCategories(List<Trade> trades, DateTime referenceDate)
         {
 
             List<string> unclassifiedCategories = new List<string>();

@@ -81,7 +81,7 @@ namespace TradeCategory
                 }
             }
          
-            var classifiedCategories = TradeCategoryHelper.ListClassifiedCatgories(inputCategories, referenceDate);
+            var classifiedCategories = TradeCategoryHelper.ListClassifiedCategories(inputCategories, referenceDate);
 
             foreach (var category in classifiedCategories)
             {
